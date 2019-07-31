@@ -1,2 +1,0 @@
-# reactPlayBox
-Created with CodeSandbox
