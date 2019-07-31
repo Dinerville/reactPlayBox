@@ -4,9 +4,9 @@ export default function Clock(props) {
   const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
-    setInterval(() => {
+    /*setInterval(() => {
       setCurrentTime(new Date());
-    }, 1000);
+    }, 1000);*/
   });
   const clock = (
     <p>

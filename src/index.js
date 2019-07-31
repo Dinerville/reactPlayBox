@@ -7,11 +7,16 @@ import "./styles.css";
 
 function App() {
   const [isClockDisplayed, setClockDisplay] = useState(true);
+
+  const styles = {
+    color: "black"
+  };
+
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
-      <button onClick={() => setClockDisplay(!isClockDisplayed)}>
+      <button onClick={() => setClockDisplay(!isClockDisplayed)} style={styles}>
         Показать/спрятать часы
       </button>
       <Clock isDisplayed={isClockDisplayed} />
